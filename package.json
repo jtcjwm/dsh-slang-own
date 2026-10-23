@@ -28,7 +28,9 @@
     "cordis.patch.yml",
     "README.md",
     "locale",
-    "icon.png"
+    "icon.png",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "dsh": {
     "bundle": {
