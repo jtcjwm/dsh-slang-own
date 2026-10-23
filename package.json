@@ -1,0 +1,55 @@
+{
+  "name": "dsh-slang-own",
+  "version": "0.1.0",
+  "description": "网络黑话与隐晦词语料库：本地倒排索引支持中文全称/拼音首字母/别名互查，常驻注入高频速查表，提供 slang_lookup / slang_add / slang_stats 三个工具，词条可自建沉淀。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "slang",
+    "corpus",
+    "meme",
+    "语料库",
+    "黑话"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "corpus",
+    "tools",
+    "cordis.patch.yml",
+    "README.md",
+    "locale",
+    "icon.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtcjwm/dsh-slang-own.git"
+  },
+  "homepage": "https://github.com/jtcjwm/dsh-slang-own#readme",
+  "bugs": {
+    "url": "https://github.com/jtcjwm/dsh-slang-own/issues"
+  },
+  "author": "jtcjwm",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

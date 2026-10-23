@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Slang Corpus · Self-built",
+    "description": "Local corpus for Chinese internet slang: multi-key inverted index across full names, pinyin initials and aliases, a compact cheat sheet injected into the system prompt, plus slang_lookup / slang_add / slang_stats tools."
+  }
+}

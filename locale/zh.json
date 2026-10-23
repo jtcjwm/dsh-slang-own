@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "黑话语料库 · 自研",
+    "description": "网络黑话与隐晦词语料库：本地倒排索引支持中文全称/拼音首字母/别名互查，常驻注入高频速查表，提供 slang_lookup / slang_add / slang_stats 三个工具。"
+  }
+}
